@@ -1,0 +1,19 @@
+Chave SSH
+forma de estabelecer conexão segura e encriptada
+entre duas máquinas.
+
+ssh-keygen -t ed25519 -C email
+criar chave
+
+cat id_ed25519.pub --> visualizar conteudo das chaves
+pwd --> mostra o caminho completo
+eval $(ssh-agent -s) --> estartando um projeto
+ssh-add id_ed25519 --> passar pro agente a chave privada
+
+
+Token de acesso pessoal
+gera um token guarda na maquina sempre que fazer um commit 
+colocar usuario e na senha usar o token de acesso pessoal
+
+Meu token:
+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

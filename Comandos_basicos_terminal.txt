@@ -1,0 +1,21 @@
+dir --> listar no Windows
+ls --> listar no Linux
+
+cd --> navegar entre as pastas Windows e Linux
+cd .. --> retrocede um nivel na navegação
+(apertar tab no Windows, ele completa oq vc estava escrevendo)
+
+cls --> limpar o terminal Windows
+clear ou CTRL+L --> limpar o terminal no Linux
+
+mkdir --> criar pasta Windows e Linux
+
+echo --> printa de volta texto q vc digita Windows Linux
+
+echo hello > hello.txt
+">" é um redicionador de fluxo pega a saida do comando 
+echo e joga em um arquivo Windows e Linux
+
+del --> deletar Windows
+rmdir --> apaga uma pasta toda Windows
+rm -rf --> apaga uma pasta toda Linux

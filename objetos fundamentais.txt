@@ -1,0 +1,29 @@
+blobs trees commits
+
+objetos;
+
+estrutura do Blob
+tamanho do blob
+tipo do objeto
+tamanho da string ou arquivo
+\0
+conteudo do arquivo
+tem um sha1 do arquivo
+
+Tree - armazena blob
+tem metadados
+\0
+aponta pra um blob q tem um sha1
+e a tree guarda o nome do arquivo
+PODEM APONTAR PARA BLOBS OU OUTRAS ARVORES
+arvore tem um sha1 do metadado
+
+Um esta relacionado com o outro SEMPRE
+
+commit
+aponta pra uma arvore
+aponta pra um parente
+aponta pra um autor
+aponta pra uma mensagem
+timestamp
+o sha1 desse commit é o hash de toda essa informação
