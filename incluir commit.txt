@@ -1,0 +1,6 @@
+criar commit para arquivo:
+git commit -m "usando -m voce pode colocar uma mensagem"
+
+para mandar para a nuvem tem que dar um "push"
+git push origin main
+assim é enviado todos os commits que temos no local para a nuvem.
