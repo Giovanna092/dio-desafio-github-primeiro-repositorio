@@ -14,6 +14,3 @@ ssh-add id_ed25519 --> passar pro agente a chave privada
 Token de acesso pessoal
 gera um token guarda na maquina sempre que fazer um commit 
 colocar usuario e na senha usar o token de acesso pessoal
-
-Meu token:
-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
